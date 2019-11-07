@@ -20,17 +20,7 @@ window.onload = function () {
             } else {
                 buffer += number;
                 number = "";
-                
-                
-                
-                
-                
-            display.value = number;
-            
-        }
-    }
-}
-     if (this.value === "√") {
+                if (this.value === "√") {
                     buffer += "**0.5";
                 } else if (this.value === "π") {
                     buffer += "3.14";
