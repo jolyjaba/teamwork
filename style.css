@@ -14,7 +14,11 @@
     height: 100px;
     border-bottom: 1px solid black;
 }
+td.buttons {
+		border-top: solid 2px silver;
+		background: #878787;
+}	
 
 #buttons {
-    
+    background: #801CC5;
 }
