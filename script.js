@@ -1,34 +1,18 @@
 let display = document.querySelector(".display");
 let buttons = document.querySelectorAll(".buttons input");
-let buffer = [];
+let number = "";
+let buffer = "";
 
-window.onclick = function () {
+window.onload = function () {
     for (let button of buttons) {
         button.onclick = function () {
-            switch (this.value) {
-                case "=":
-                    solve(buffer);
-                    break;
-                case "+":
-                    add();
-                    break;
-                case "-": 
-                    sub();
-                    break;
-                case "x":
-                    mul();
-                    break;
-                case "/":
-                    div();
-                    break;
-                case "&radic;":
-                    sqrt();
-                    break;
-            }
+            display.value = "";
+            if (this.value === "C" || this.value === "c") {
+                display.value = "";
+                buffer.length = 0;
+                number.length = 0;
+            } 
+            display.value = number;
         }
     }
-}
-
-function solve(arr) {
-    console.log(arr);
 }
