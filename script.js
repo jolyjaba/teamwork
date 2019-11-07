@@ -30,3 +30,22 @@ window.onload = function () {
         }
     }
 }
+     if (this.value === "√") {
+                    buffer += "**0.5";
+                } else if (this.value === "π") {
+                    buffer += "3.14";
+                } else if (this.value === "x") {
+                    buffer += "*";
+                } else if (this.value === "=") {
+                    console.log(buffer);
+                    buffer = eval(buffer);
+                    display.value = buffer;
+                    console.log(display.value);
+                } else {
+                    buffer += this.value;
+                }
+            }
+            display.value = number;
+        }
+    }
+}
