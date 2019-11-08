@@ -1,31 +1,28 @@
 #calculator * {
-	font-size: 16px;
+		font-size: 16px;
 }
-
+h3{
+  border:2px solid black;
+  border-radius:2px;
+  width:9%;
+  background-color:SkyBlue;
+}
 #calculator table {
-	border: solid 3px silver;
-	border-spacing: 3px;
-	background-color: #EEE;
+	border: solid 3px green; border-spacing: 3px;background-color: #EEE; 
 }
-
 #calculator table td {
-	border-spacing: 5px;
-	color: #878787;
-
+	border-spacing: 5px; color:#878787;
 }
-
 input.display {
-	width: 360px;
-	height: 40px;
-	text-align: right;
+	width: 360px; height: 40px;text-align: right;
 }
-
 td.buttons {
-	border-top: solid 2px silver;
-	background: #878787;
+	border-top: solid 2px red;
+	background: red;
+}	
+.buttons{
+	background: #801CC5;
 }
-
-input[type=button] {
-	width: 70px;
-	height: 50px;
+input[type= button] {
+	width: 70px; height: 50px;
 }

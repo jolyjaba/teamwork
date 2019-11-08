@@ -4,7 +4,6 @@ let buttons = document.querySelectorAll(".buttons input");
 window.onload = function () {
     for (let button of buttons) {
         button.onclick = function () {
-            if (this.value === "0" || this.value === "1" ||
                 this.value === "2" || this.value === "3" ||
                 this.value === "4" || this.value === "5" ||
                 this.value === "6" || this.value === "7" ||
